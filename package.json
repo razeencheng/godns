@@ -1,0 +1,13 @@
+{
+  "name": "godns",
+  "version": "1.0.1",
+  "devDependencies": {
+    "standard-version": "^4.2.0"
+  },
+  "scripts": {
+    "release": "standard-version -- --dry-run",
+    "first-release": "standard-version --first-release",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
+  },
+  "dependencies": {}
+}
