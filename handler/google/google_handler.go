@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/TimothyYe/godns"
+	"github.com/razeencheng/godns"
 )
 
 var (

@@ -13,8 +13,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/TimothyYe/godns"
 	simplejson "github.com/bitly/go-simplejson"
+	"github.com/razeencheng/godns"
 )
 
 // Handler struct definition
