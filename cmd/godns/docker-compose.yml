@@ -3,7 +3,7 @@ services:
     godns:
         image: razeencheng/godns:latest
         volumes: 
-            - ./config_godns.json:/usr/local/godns/config.json
+            - ./config/godns.config.json:/usr/local/godns/config.json
         restart: always
         logging:
             options:
