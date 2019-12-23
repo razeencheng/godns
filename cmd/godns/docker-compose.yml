@@ -1,0 +1,12 @@
+version: '3'
+services: 
+    godns:
+        image: razeencheng/godns:latest
+        volumes: 
+            - ./config_godns.json:/usr/local/godns/config.json
+        restart: always
+        logging:
+            options:
+                max-size: "500m"
+                max-file: "5
+            

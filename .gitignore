@@ -31,6 +31,8 @@ config.json
 cmd/godns/godns
 cmd/godns/config.json
 
+node_modules
+
 /.idea
 /godns.iml
 /godns.ipr

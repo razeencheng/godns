@@ -1,13 +1,13 @@
 package handler
 
 import (
-	"github.com/TimothyYe/godns"
-	"github.com/TimothyYe/godns/handler/alidns"
-	"github.com/TimothyYe/godns/handler/cloudflare"
-	"github.com/TimothyYe/godns/handler/dnspod"
-	"github.com/TimothyYe/godns/handler/duck"
-	"github.com/TimothyYe/godns/handler/google"
-	"github.com/TimothyYe/godns/handler/he"
+	"github.com/razeencheng/godns"
+	"github.com/razeencheng/godns/handler/alidns"
+	"github.com/razeencheng/godns/handler/cloudflare"
+	"github.com/razeencheng/godns/handler/dnspod"
+	"github.com/razeencheng/godns/handler/duck"
+	"github.com/razeencheng/godns/handler/google"
+	"github.com/razeencheng/godns/handler/he"
 )
 
 // IHandler is the interface for all DNS handlers

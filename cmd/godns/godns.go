@@ -7,9 +7,9 @@ import (
 
 	"log"
 
-	"github.com/TimothyYe/godns"
-	"github.com/TimothyYe/godns/handler"
 	"github.com/fatih/color"
+	"github.com/razeencheng/godns"
+	"github.com/razeencheng/godns/handler"
 )
 
 var (

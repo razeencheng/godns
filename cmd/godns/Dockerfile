@@ -1,5 +1,4 @@
-FROM timothyye/alpine:3.6-glibc
-MAINTAINER Timothy
+FROM frolvlad/alpine-glibc
 RUN apk add --update ca-certificates
 RUN mkdir -p /usr/local/godns
 COPY godns /usr/local/godns

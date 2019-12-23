@@ -1,5 +1,6 @@
 # Binary name
 BINARY=godns
+VERSION=$(shell git describe --tags)
 # Builds the project
 build:
 		GO111MODULE=on go build -o ${BINARY} -ldflags "-X main.Version=${VERSION}"
@@ -10,10 +11,10 @@ image:
 		# Build docker image
 		go clean
 		CGO_ENABLED=0 GOOS=linux GOARCH=amd64 GO111MODULE=on go build -o ${BINARY} -ldflags "-s -w -X main.Version=${VERSION}"
-		docker build -t timothyye/godns:${VERSION} .
-		docker tag timothyye/godns:${VERSION} timothyye/godns:latest
-		docker push timothyye/godns:${VERSION}
-		docker push timothyye/godns:latest
+		docker build -t razeencheng/godns:${VERSION} .
+		docker tag razeencheng/godns:${VERSION} razeencheng/godns:latest
+		docker push razeencheng/godns:${VERSION}
+		docker push razeencheng/godns:latest
 release:
 		# Clean
 		go clean

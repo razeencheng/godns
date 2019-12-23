@@ -7,7 +7,7 @@ import (
 	"runtime/debug"
 	"time"
 
-	"github.com/TimothyYe/godns"
+	"github.com/razeencheng/godns"
 )
 
 var (
